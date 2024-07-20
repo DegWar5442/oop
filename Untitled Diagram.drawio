@@ -1,9 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2024-07-20T17:58:33.764Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.2" etag="GTub1db3fNRlL1caCWEh" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-20T18:15:26.131Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="wBdLx_o92EIGtECKNgOd" version="24.7.2" type="github">
   <diagram name="Page-1" id="aQUfg1uCSwbfjU3InC7J">
-    <mxGraphModel>
+    <mxGraphModel dx="1108" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="S0qn43vIRpzl-VPln0v2-1" value="" style="shape=orEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="140" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S0qn43vIRpzl-VPln0v2-2" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="550" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S0qn43vIRpzl-VPln0v2-3" value="&#xa;Trains Found&#xa;&#xa;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="85" width="130" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="S0qn43vIRpzl-VPln0v2-4" value="&lt;br&gt;page where user enters personal data" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="92.5" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="S0qn43vIRpzl-VPln0v2-5" value="error message" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S0qn43vIRpzl-VPln0v2-6" value="Search Parameters Entered" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="S0qn43vIRpzl-VPln0v2-1" target="S0qn43vIRpzl-VPln0v2-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="350" as="sourcePoint" />
+            <mxPoint x="330" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0qn43vIRpzl-VPln0v2-11" value="&#xa;Train and Place Selected&#xa;&#xa;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="S0qn43vIRpzl-VPln0v2-3" target="S0qn43vIRpzl-VPln0v2-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="350" as="sourcePoint" />
+            <mxPoint x="460" y="151" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0qn43vIRpzl-VPln0v2-12" value="wrong data" style="endArrow=classic;html=1;rounded=0;exitX=0.207;exitY=0.905;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.958;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S0qn43vIRpzl-VPln0v2-4" target="S0qn43vIRpzl-VPln0v2-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="350" as="sourcePoint" />
+            <mxPoint x="460" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0qn43vIRpzl-VPln0v2-13" value="correct data" style="endArrow=classic;html=1;rounded=0;exitX=0.693;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S0qn43vIRpzl-VPln0v2-4" target="S0qn43vIRpzl-VPln0v2-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="350" as="sourcePoint" />
+            <mxPoint x="690" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0qn43vIRpzl-VPln0v2-14" value="payment page where user enters card information" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S0qn43vIRpzl-VPln0v2-15" value="error message" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S0qn43vIRpzl-VPln0v2-16" value="wrong data" style="endArrow=classic;html=1;rounded=0;exitX=-0.008;exitY=0.725;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.958;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="S0qn43vIRpzl-VPln0v2-15" source="S0qn43vIRpzl-VPln0v2-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="624" y="309.99999999999994" as="sourcePoint" />
+            <mxPoint x="520" y="395.96" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0qn43vIRpzl-VPln0v2-17" value="correct data" style="endArrow=classic;html=1;rounded=0;exitX=0.692;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.408;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S0qn43vIRpzl-VPln0v2-14" target="S0qn43vIRpzl-VPln0v2-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="410" as="sourcePoint" />
+            <mxPoint x="730" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0qn43vIRpzl-VPln0v2-18" value="user gets notification on his email confirming purchase" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="400" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="S0qn43vIRpzl-VPln0v2-19" value="tickets are purchased" style="endArrow=classic;html=1;rounded=0;exitX=0.581;exitY=1.02;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S0qn43vIRpzl-VPln0v2-18" target="S0qn43vIRpzl-VPln0v2-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="550" as="sourcePoint" />
+            <mxPoint x="780" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
